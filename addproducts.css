@@ -1,0 +1,65 @@
+/* Container to center the form */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #4caf50; /* Green background color */
+}
+
+/* Add some basic styling to the form container */
+form {
+    max-width: 400px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+/* Style labels for consistency */
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* Style text input fields */
+input[type="text"],
+input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Style image preview */
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+/* Style submit button */
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Error message styling */
+.error {
+    color: red;
+    margin-top: 5px;
+    font-size: 14px;
+}
